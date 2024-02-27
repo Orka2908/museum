@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Музей</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+    
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="CSS/Boss.css">
+    <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="stylesheet" href="CSS/menu.css" />
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="title">
+          <img
+            src="IMG/Logo1.jpg"
+            style="margin-right: 15px"
+            width="100px"
+            alt=""
+          />ҚЫЗЫЛОРДА ОБЛЫСТЫҚ ТАРИХИ-ӨЛКЕТАНУ МУЗЕЙІ
+        </h1>
+      </header>
+      <div class="burger-menu">
+        <div class="menu__icon">
+          <span> </span>
+        </div>
+      <nav class="nav__container">
+        
+        <ul>
+          <li><a href="index.html">Басты бет</a></li>
+          <li><a href="#">Музей тарихы</a></li>
+          <li><a href="#">Жаңалықтар</a></li>
+          <li>
+            <a href="#">Экспозиция</a>
+            <ul class="menu__bar">
+              <li class="menu__bar-title"><a href="Ex1.html">«КІРІСПЕ» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex2.html">«ӨСІМДІКТЕР МЕН ЖАНУАРЛАР» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex3.html">« АРХЕОЛОГИЯ»  ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex4.html">«СЫР  ӨЛКЕСНІҢ ӘЛЕУМЕТТІК - ЭКОНОМИКАЛЫҚ  ДАМУЫ
+                (ХҮ-ХХ ғғ.)» ЗАЛЫ
+                </a></li>
+              <li class="menu__bar-title"><a href="Ex5.html">«ӨЛКЕДЕ КЕҢЕС ӨКІМЕТІНІҢ ОРНАУЫ» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex6.html">"ҚЫЗЫЛОРДА ОБЛЫСЫ ЕКІНШІ ДҮНИЕЖҮЗІЛІК СОҒЫСЫ ЖЫЛДАРЫНДА» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex7.html">«ОБЛЫСТЫҢ АУЫЛ ШАРУАШЫЛЫҒЫ МЕН ЭКОНОМИКАСЫНЫҢ ДАМУЫ» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex8.html">                            «МӘДЕНИЕТ ЖӘНЕ ӨНЕР» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex9.html">«ОБЛЫСТЫҢ ӘЛЕУМЕТТІК САЛАСЫНЫҢ ДАМУЫ» ЗАЛЫ</a></li>
+              <li class="menu__bar-title"><a href="Ex10.html">«ЭТНОГРАФИЯ» ЗАЛЫ</a></li>  
+              <li class="menu__bar-title"><a href="Ex11.html">«ТӘУЕЛСІЗ ҚАЗАҚСТАН» ЗАЛЫ</a></li>  
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">Келушілерге</a>
+            <ul class="menu__bar">
+              <li class="menu__bar-title" id="openModalBtn"><a  href="#" >Бағалар</a></li>
+              <li class="menu__bar-title">
+                <a href="rekvizit.html">Байланыс және жұмыс уақыты</a>
+              </li>
+              <li class="menu__bar-title"><a href="eks.html">Экскурсиялар</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Филиалдар
+            <ul class="menu__bar">
+              <li class="menu__bar-title"><a href="Filial/akmeshit.html">Ақмешіт музейі </a></li>
+              <li class="menu__bar-title"><a href="Filial/aral.html">Арал аудандық тарихи-өлкетану музейі</a></li>
+              <li class="menu__bar-title"><a href="Filial/aralkala.html">Арал қалалық тарихи музейі</a></li>
+              <li class="menu__bar-title"><a href="Filial/gallery.html">Галерея</a></li>
+              <li class="menu__bar-title"><a href="Filial/gani.html">Ғ.Мұратбаевтың мемориалдық музейі</a></li>
+              <li class="menu__bar-title"><a href="Filial/ybyray.html">Ыбырай Жақаев атындағы күріш өсіру тарихы музейі </a></li>
+              <li class="menu__bar-title"><a href="Filial/zhalagash.html">ЖАЛАҒАШ АУДАНДЫҚ ТАРИХИ-ӨЛКЕТАНУ МУЗЕЙІ</a></li>
+              <li class="menu__bar-title"><a href="Filial/zhanakorgan.html">Жаңақорған  аудандық тарихи-өлкетану музейі  </a></li>
+              <li class="menu__bar-title"><a href="Filial/kazaly.html">Қазалы аудандық тарихи-өлкетану музейі </a></li>
+              <li class="menu__bar-title"><a href="Filial/karmakshy.html">Қармақшы аудандық тарихи-өлкетану музейі </a></li>  
+              <li class="menu__bar-title"><a href="Filial/nartay.html">Н.Бекежанов мемориалдық өнер музейі</a></li> 
+              <li class="menu__bar-title"><a href="Filial/syrdarya.html">Сырдария аудандық тарихи-өлкетану музейі</a></li>   
+              <li class="menu__bar-title"><a href="Filial/shieli.html">Шиелі аудандық тарихи-өлкетану музейі</a></li>   
+             
+              
+            </ul>
+          </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+      <main>
+        <div class="container "> <div class="main__inner">
+          <h2 class="main__title">Қош келдіңіздер!</h2>
+          <div  class="video__inner">
+            <video id="myVideo" class="video" muted autoplay>
+              <source src="IMG/IMG_1176.MOV" type="video/mp4" />
+            </video>
+          </div>
+          <h3 class="main__sub-title text-center mt-4"   >Қызылорда облыстық тарихи-өлкетану  музейі </h2><br>
+            <p class="main__desc" ><img style="float: right;" src="IMG/музейдің сырты.jpg" alt=""  class="main__img"  width="400" height="265" hspace="20" vspace="5" data-aos="fade-left">Заманалар мен ғасырлар тірегі, жыр боп жауһарланған, өлмес өнердің отын жаққан киелі мекен, көненің көзі, мәдени мұралардың асыл көмбесі, талай тарихты қойнауына бүккен, талай тарланды қанаттандырған Қызылорда облысына биыл – 85 жыл. 1938 жылдың 15 қаңтарында Қызылорда облысын құру туралы қаулы қабылданса, 1939 жылы 7 ақпанында Қазақ ССР Жоғарғы Кеңесі Президиумының ұйымдастыру Комитетінің арнайы Қаулысымен Қызылорда облыстық тарихи-өлкетану музейі құрылды. Музей  жанында Көркемсурет галереясы, Ақмешіт және аудандық музей филиалдары музейі жұмыс  жасайды.85 жылға жуық тарихы бар музей өз жұмысын өлке тарихы мен табиғатын зерттеуден бастаған. Музей ең алғаш тұрағы 1890-1896 жылы салынған Христос Спаситель шіркеуінде болды. Сол кездегі музейдің қалыптасуына, құнды экспонаттардың жинақталуына қоғам және мемлекет қайраткері Иса Тоқтыбаевтың, жазушы Саид Баязитовтың еңбектері зор болды. <img style="float: left;" src="IMG/этнография залы.jpg" alt="" class="main__img" width="401" height="266" hspace="10" vspace="5" data-aos="fade-right">Кейін 1980 жылы облыстық атқару комитетінің шешімі бойынша музейге екі қабатты ғимарат бөлініп, 1985 жылдың 7 мамырында  ол келушілерге есігін айқара ашты. Музей орналасқан бұл ғимараттың өзі 1953 жылы салынған қаламызды көркейтіп тұрған архитектуралық ескерткіштердің бірі. Осы ғимараттағы музейдің жаңа экспозициясын құнды өлкенің тарихы мен мәдениетіне қатысты заттар мен коллекцияларды толықтыруға, сол кездегі музей директоры Көмекбай Қаракөзовтің еңбегі зор болды.Сыр өңірінде рухани мұрасын сақтап, насихаттап отырған облыстың 85 жылдығынан сыр шертетін тарихи мәдени мекемелердің бірі болып табылатын – Қызылорда облыстық тарихи-өлкетану музейі.   <br></p>
+            <b class="address">Мекен-жайымыз: Қызылорда қаласы , М.Әуезов көшесі, 2 А     </b>
+<br>
+<b class="address" >E-mail: Kyzylorda_museum@mail.ru  </b>
+<div class="social-icons">
+    <a href="https://www.facebook.com/yourusername" target="_blank">
+      <img class="icons"  src="IMG/facebook.svg" alt="Facebook Icon">
+    </a>
+    <a href="https://www.twitter.com/yourusername" target="_blank">
+      <img class="icons"  src="IMG/loon-icon.svg" alt="Twitter Icon">
+    </a>
+    <a href="https://www.instagram.com/yourusername" target="_blank">
+      <img class="icons"  src="IMG/Whatsapp.svg" alt="Instagram Icon">
+    </a>
+    <a href="https://www.instagram.com/yourusername" target="_blank">
+        <img  class="icons" src="IMG/Youtube.svg" alt="Instagram Icon">
+      </a>
+  </div>
+        </div>
+        <!-- <div class="boss">
+        
+            <div class="box">
+              <div class="imgBx">
+                <img src="https://images.unsplash.com/photo-1579748138140-ce9ef2c32db1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+              </div>
+              <div class="content">
+                <div>
+                  <h2>Image Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="https://images.unsplash.com/photo-1579639782539-15cc6c0be63f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+              </div>
+              <div class="content">
+                <div>
+                  <h2>Image Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="https://images.unsplash.com/photo-1603984362497-0a878f607b92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80">
+              </div>
+              <div class="content">
+                <div>
+                  <h2>Image Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="https://images.unsplash.com/photo-1579310962131-aa21f240d986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
+              </div>
+              <div class="content">
+                <div>
+                  <h2>Image Title</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>   -->
+      
+    </div>
+      </main>
+      
+    </div>
+    <footer class="footer">
+       
+            <div class="footer-inner">
+                <div class="footer-address">
+                    <img src="IMG/address.svg" alt="Address">
+                    <span>Қызылорда қ,
+                        М.Әуезов 2А</span>
+                </div>
+                <div class="footer-phone">
+                    <img src="IMG/tel.svg" alt="Phone">
+                    <div class="footer-phone__numbers">
+                        <a href="tel:+7 7242 27 61 52">8-7242-27-61-52</a>
+                        <a href="tel:+7 7242 27 76 11">8-7242-27-76-11</a>
+                    </div>
+                </div>
+                <div class="footer-mail">
+                    <img  src="IMG/email.svg" alt="Mail">
+                    <a href="mailto:ulttyk_muzei@mail.ru"><span>ulttyk_muzei@mail.ru</span></a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/nationalmuseumkz/?igshid=1d5cinzib7nxs" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.91675 9.99996C2.91675 8.52811 2.91675 7.79219 3.05673 7.18365C3.52884 5.1313 5.13142 3.52872 7.18377 3.05661C7.79231 2.91663 8.52824 2.91663 10.0001 2.91663C11.4719 2.91663 12.2079 2.91663 12.8164 3.05661C14.8687 3.52872 16.4713 5.1313 16.9434 7.18365C17.0834 7.79219 17.0834 8.52811 17.0834 9.99996C17.0834 11.4718 17.0834 12.2077 16.9434 12.8163C16.4713 14.8686 14.8687 16.4712 12.8164 16.9433C12.2079 17.0833 11.4719 17.0833 10.0001 17.0833C8.52824 17.0833 7.79231 17.0833 7.18377 16.9433C5.13142 16.4712 3.52884 14.8686 3.05673 12.8163C2.91675 12.2077 2.91675 11.4718 2.91675 9.99996ZM10.0001 6.24996C7.92914 6.24996 6.25008 7.92902 6.25008 9.99996C6.25008 12.0709 7.92914 13.75 10.0001 13.75C12.071 13.75 13.7501 12.0709 13.7501 9.99996C13.7501 7.92902 12.071 6.24996 10.0001 6.24996ZM10.0001 12.3437C8.70821 12.3437 7.65633 11.2918 7.65633 9.99996C7.65633 8.70715 8.70821 7.65621 10.0001 7.65621C11.292 7.65621 12.3438 8.70715 12.3438 9.99996C12.3438 11.2918 11.292 12.3437 10.0001 12.3437ZM14.531 5.96871C14.531 6.24468 14.3073 6.4684 14.0313 6.4684C13.7554 6.4684 13.5316 6.24468 13.5316 5.96871C13.5316 5.69274 13.7554 5.46902 14.0313 5.46902C14.3073 5.46902 14.531 5.69274 14.531 5.96871Z" fill="#AAAAAA"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/www.qrum.kz" target="_blank">
+                        <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.85278 0.503294L6.85399 0.5C4.60842 0.5 3.15723 2.02942 3.15723 4.3966V6.1932H1.14754C0.973881 6.1932 0.833252 6.33782 0.833252 6.51621V9.11928C0.833252 9.29767 0.974041 9.44213 1.14754 9.44213H3.15723V16.0105C3.15723 16.1889 3.29786 16.3333 3.47152 16.3333H6.0936C6.26726 16.3333 6.40789 16.1887 6.40789 16.0105V9.44213H8.75769C8.93135 9.44213 9.07198 9.29767 9.07198 9.11928L9.07294 6.51621C9.07294 6.43056 9.03975 6.34853 8.9809 6.28791C8.92205 6.2273 8.84187 6.1932 8.75849 6.1932H6.40789V4.6702C6.40789 3.93819 6.5777 3.56658 7.50598 3.56658L8.85246 3.56609C9.02596 3.56609 9.16658 3.42147 9.16658 3.24324V0.826145C9.16658 0.648083 9.02612 0.503624 8.85278 0.503294Z" fill="#AAAAAA"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCtK8TlhOyvmOmwcxJPjQyMQ" target="_blank">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6251 1.37504C16.173 0.570874 15.6824 0.422957 14.6834 0.366707C13.6855 0.298999 11.1761 0.270874 9.00216 0.270874C6.82404 0.270874 4.31362 0.298999 3.31675 0.365666C2.31987 0.422957 1.82821 0.569832 1.37196 1.37504C0.906331 2.17817 0.666748 3.5615 0.666748 5.99691C0.666748 5.999 0.666748 6.00004 0.666748 6.00004C0.666748 6.00212 0.666748 6.00317 0.666748 6.00317V6.00525C0.666748 8.43025 0.906331 9.824 1.37196 10.6188C1.82821 11.423 2.31883 11.5688 3.31571 11.6365C4.31362 11.6948 6.82404 11.7292 9.00216 11.7292C11.1761 11.7292 13.6855 11.6948 14.6845 11.6375C15.6834 11.5698 16.174 11.424 16.6261 10.6198C17.0959 9.82504 17.3334 8.43129 17.3334 6.00629C17.3334 6.00629 17.3334 6.00317 17.3334 6.00108C17.3334 6.00108 17.3334 5.999 17.3334 5.99796C17.3334 3.5615 17.0959 2.17817 16.6251 1.37504ZM6.91675 9.12504V2.87504L12.1251 6.00004L6.91675 9.12504Z" fill="#AAAAAA"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-web">Әзірленген:
+                    Әбілқасым Орынбасар
+                </div>
+            </div>
+
+        
+    </footer>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <h2 style="text-align: center;"> Бағалар</h2>
+        <table>
+          <tr>
+            <th colspan="4">Кіру билеті мен экскурсиялық қызмет бағасы</th>
+            <th>Ескерту</th>
+          </tr>
+          <tr>
+            <td>№</td>
+            <td>Кіру билеті</td>
+            <td>Адам саны</td>
+            <td>бағасы</td>
+            <td>экскурсияның қызметінің бағасы бөлек төленеді</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Ересек адам</td>
+            <td>1</td>
+            <td>300</td>
+            <td>$10</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>ЖОО және ОАОО студенті</td>
+            <td>1</td>
+            <td>200</td>
+            <td>Дәлелді құжат ұсынған жағдайда</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Зейнеткер</td>
+            <td>1</td>
+            <td>200</td>
+            <td>Дәлелді құжат ұсынған жағдайда</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Оқушы</td>
+            <td>1</td>
+            <td>100</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Шет елден келушілерге</td>
+            <td>1</td>
+            <td>300</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td colspan="2">6 жасқа дейінгі балаларға, Ұлы Отан соғысы ардагерлеріне, көп балалы аналарға, "Алтын алқа", "Күміс алқа" иегерлеріне,мүмкіндігі шектеулі азамттарға
+            </td>
+            <td>Ақысыз</td>
+            <td>Дәлелді құжат ұсынған жағдайда</td>
+          </tr>
+          <!-- Добавьте другие товары по аналогии -->
+        </table>
+      </div>
+    </div>
+    <script src="JS/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="JS/script.js"></script>
+    <script>
+      
+        var video = document.getElementById("myVideo");
+        video.addEventListener("ended", function() {
+            // После завершения воспроизведения, снова начинаем воспроизведение
+            video.play();
+        });
+    </script>
+  </body>
+</html>
